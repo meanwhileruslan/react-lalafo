@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page{
+  padding: 50px 12%;
+  box-shadow: rgb(35, 33, 33);
+}
+
+.center{
+  text-align: center;
+}
+
+.left{
+  text-align: left;
+}
+
+.right{
+  text-align: right;
+}
+.error-message{
+  color: red;
+  font-size: 14px;
+}
+.btn-primary {
+  background: rgb(83, 83, 243);
+  color: #fff;
+  font-size: 18px;
+  padding: 18px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition: all linear 0.3sec;
+}
+.btn-primary:hover{
+  background: rgb(108, 108, 246);
+  box-shadow: 0 0 4px rgb(108, 108, 246);
+}
+.btn-primary:disabled{
+  cursor: not-allowed;
+  background: rgb(199, 199, 199);
+  color: rgb(114, 114, 114);
+  }
